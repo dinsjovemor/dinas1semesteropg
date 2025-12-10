@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:dinasOpgaveDaniadata"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Page1">
+      Title="Page1Login">
     <Grid>
         <Label HorizontalAlignment="Left" Background="Gray " Margin="181,24,0,0" VerticalAlignment="Top" Width="425" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
@@ -19,6 +19,7 @@
             </Label.RenderTransform>
             <TextBlock TextWrapping="NoWrap"><Run Language="da-dk" Text="daniadata Login"/></TextBlock>
         </Label>
+        <Rectangle HorizontalAlignment="Left" Height="86" Margin="102,113,0,0" Stroke="White" VerticalAlignment="Top" Width="583"/>
 
 
     </Grid>

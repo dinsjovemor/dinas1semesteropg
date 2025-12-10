@@ -18,12 +18,12 @@ namespace dinasOpgaveDaniadata
     /// <summary>
     /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Page1Login : Page
     {
-        public Page1()
+        public Page1Login()
         {
             InitializeComponent();
-            // Testing 123
+            
         }
     }
 }

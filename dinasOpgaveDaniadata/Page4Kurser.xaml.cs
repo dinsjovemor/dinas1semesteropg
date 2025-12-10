@@ -18,9 +18,9 @@ namespace dinasOpgaveDaniadata
     /// <summary>
     /// Interaction logic for Page4.xaml
     /// </summary>
-    public partial class Page4 : Page
+    public partial class Page4Kurser : Page
     {
-        public Page4()
+        public Page4Kurser()
         {
             InitializeComponent();
         }
