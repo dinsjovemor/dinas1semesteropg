@@ -14,10 +14,6 @@ namespace dinasOpgaveDaniadata
     /// </summary>
     public partial class App : Application
     {
-        //kommentar
-        //sker der noget?
-        //Tredjeforsøg
 
-        // Test changes from Visual studio to Github
     }
 }
