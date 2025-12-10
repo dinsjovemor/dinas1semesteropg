@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -18,7 +17,7 @@ namespace dinasOpgaveDaniadata
     /// <summary>
     /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class Page1Login : Page
+    public partial class Page1Login : Page1
     {
         public Page1Login()
         {

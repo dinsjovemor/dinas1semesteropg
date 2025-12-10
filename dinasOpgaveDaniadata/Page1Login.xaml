@@ -8,18 +8,21 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page1Login">
     <Grid>
-        <Label HorizontalAlignment="Left" Background="Gray " Margin="181,24,0,0" VerticalAlignment="Top" Width="425" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="daniaDataLogin" HorizontalAlignment="Center" Foreground="DarkRed" Background="LightGray" Margin="0,62,0,0" VerticalAlignment="Top" Width="422" RenderTransformOrigin="0.5,0.5" FontFamily="Bauhaus 93" FontSize="16" Height="25">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="-0.593"/>
+                    <RotateTransform Angle="0"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </Label.RenderTransform>
-            <TextBlock TextWrapping="NoWrap"><Run Language="da-dk" Text="daniadata Login"/></TextBlock>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="86" Margin="102,113,0,0" Stroke="White" VerticalAlignment="Top" Width="583"/>
+        <Rectangle x:Name="BrugernavnIndtasningsfelt" HorizontalAlignment="Center" Height="26" Margin="0,175,0,0" Stroke="DarkGray" VerticalAlignment="Top" Width="422"/>
+        <TextBlock x:Name="textBrugernavn" HorizontalAlignment="Left" Margin="189,154,0,0" TextWrapping="NoWrap" Text="Brugernavn" VerticalAlignment="Top" Width="179"/>
+        <Rectangle x:Name="PasswordIndtastningsfelt" HorizontalAlignment="Center" Height="26" Margin="0,266,0,0" Stroke="DarkGray" VerticalAlignment="Top" Width="422"/>
+        <TextBlock x:Name="textPassword" HorizontalAlignment="Left" Margin="189,245,0,0" TextWrapping="NoWrap" Text="Password" VerticalAlignment="Top" Width="179"/>
+        <TextBox x:Name="textDaniadataLogin" HorizontalAlignment="Center" Margin="0,62,0,0" TextWrapping="NoWrap" Text="daniadata LOGIN" VerticalAlignment="Top" Width="120" Background="LightGray"/>
 
 
     </Grid>

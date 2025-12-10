@@ -61,6 +61,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Page2Overblik.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Page1Login.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,14 +73,13 @@
       <DependentUpon>Main.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Page2Overblik.xaml.cs">
+      <DependentUpon>Page2Overblik.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page1Login.xaml.cs">
       <DependentUpon>Page1Login.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Page2Overblik.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Page3Medlemmer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -87,9 +90,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Page2Overblik.xaml.cs">
-      <DependentUpon>Page2Overblik.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Page3Medlemmer.xaml.cs">
       <DependentUpon>Page3Medlemmer.xaml</DependentUpon>
     </Compile>
