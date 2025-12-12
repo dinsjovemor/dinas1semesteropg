@@ -21,11 +21,15 @@ namespace WPF1SemesterOpgave
 
     {
         private Medlem medlem; //privat accessor fordi jeg kun skal bruge det i denne class
-        public Modal5MedlemsID(Medlem valgtMedlem) //Parser valgt medlem fra listen, navngivet variablen valgtMedlem
+        private Kursuslisten kursuslisten;
+
+        //Parser valgt medlem fra listen, navngivet variablen valgtMedlem. Tilføjet så Tilmeld Kursus knappen fungerer
+        public Modal5MedlemsID(Medlem valgtMedlem, Kursuslisten liste) 
         {
             InitializeComponent();
 
             medlem = valgtMedlem; //Gemmer i dette felt til senere brug
+            kursuslisten = liste; 
 
             navnIndtastningsfelt.Text = medlem.Navn; //Henter Navnefeltet fra listen medlem
             adresseIndtastningsfelt.Text = medlem.Adresse; //Henter Adressefeltet fra listen medlem
@@ -47,7 +51,8 @@ namespace WPF1SemesterOpgave
 
         private void tilmeldKursusButton_Click(object sender, RoutedEventArgs e)
         {
-          
+            TilfoejMedlemTilKursus vindue3 = new TilfoejMedlemTilKursus(kursuslisten); //opret vindue3 til at tilføje medlem til et kursus
+            vindue3.ShowDialog(); //Vis vinduet som dialog
         }
     }
 }

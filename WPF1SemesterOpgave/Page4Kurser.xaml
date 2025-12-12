@@ -10,14 +10,14 @@
 
     <Grid>
         <TextBox x:Name="textKurser" HorizontalAlignment="Left" Margin="155,66,0,0" TextWrapping="NoWrap" TextAlignment="Center" Text="KURSER" VerticalAlignment="Top" Height="26" Width="500" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16"/>
-        <Button x:Name="kursus1Button" Content="Basis&#xD;&#xA;Git-kursus" Height="60" Width="80" Margin="137,160,583,230" Click="Button1_Click"/>
-        <Button x:Name="kursus3Button" Content="Front-End&#xD;&#xA;HTML-kursus" Height="60" Width="80" Margin="336,158,336,227" Click="Button3_Click"/>
-        <Button x:Name="kursus2Button" Content="Basis&#xA;Visual Studio-kursus" Height="60" Width="80" Margin="137,284,583,106" Click="Button2_Click" ClickMode="Press"/>
-        <Button x:Name="kursus5Button" Content="Back-End&#xA;Node-kursus" Height="60" Width="80" Margin="534,160,138,225" Click="Button5_Click"/>
-        <Button x:Name="kursus6Button" Content="Back-End&#xA;Django-kursus" Height="60" Width="80" Margin="534,281,138,104" Click="Button6_Click"/>
-        <Button x:Name="kursus4Button" Content="Front-End&#xD;&#xA;CSS-kursus" Height="60" Width="80" Margin="336,281,336,104" Click="Button4_Click"/>
-        <Button x:Name="tilføjKursusButton" Content="Tilføj kursus" Height="60" Width="80" Margin="569,382,138,43" Click="tilføjKursusButton_Click"/>
-        
+        <Button x:Name="kursus1Button" Content="Basis&#xD;&#xA;Git-kursus" Height="60" Width="80" Margin="163,146,557,244" Click="Button1_Click"/>
+        <Button x:Name="kursus3Button" Content="Front-End&#xD;&#xA;HTML-kursus" Height="60" Width="80" Margin="365,148,355,242" Click="Button3_Click"/>
+        <Button x:Name="kursus2Button" Content="Basis&#xA;Visual Studio-kursus" Height="60" Width="80" Margin="163,270,557,120" Click="Button2_Click" ClickMode="Press"/>
+        <Button x:Name="kursus5Button" Content="Back-End&#xA;Node-kursus" Height="60" Width="80" Margin="575,148,145,242" Click="Button5_Click"/>
+        <Button x:Name="kursus6Button" Content="Back-End&#xA;Django-kursus" Height="60" Width="80" Margin="575,269,145,121" Click="Button6_Click"/>
+        <Button x:Name="kursus4Button" Content="Front-End&#xD;&#xA;CSS-kursus" Height="60" Width="80" Margin="365,269,355,121" Click="Button4_Click" RenderTransformOrigin="0.496,-1.198"/>
+        <Button x:Name="tilføjKursusButton" Content="Tilføj kursus" Width="80" Margin="575,370,145,50" Click="tilføjKursusButton_Click"/>
+
 
     </Grid>
 </Page>
