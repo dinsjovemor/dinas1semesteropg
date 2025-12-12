@@ -9,27 +9,21 @@
       Title="Modal5MedlemsID">
 
     <Grid x:Name="mailadresseIndtastningsfelt">
-        <Image x:Name="fotoMedlem1" HorizontalAlignment="Left" Height="50" Margin="611,73,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
-        <TextBox x:Name="nameTextMedlem1" HorizontalAlignment="Left" Margin="611,128,0,0" TextWrapping="NoWrap" Text="Medlem1" VerticalAlignment="Top" Width="58" BorderThickness="0,0,0,0" FontSize="10"/>
-        <Label x:Name="medlemsIDTitel" HorizontalAlignment="Center" Foreground="DarkRed" Background="LightGray" Margin="0,73,0,0" VerticalAlignment="Top" Width="422" RenderTransformOrigin="0.5,0.5" FontFamily="Bauhaus 93" FontSize="16" Height="25">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-        <TextBox x:Name="textMedlemmer" HorizontalAlignment="Left" Margin="360,75,0,0" TextWrapping="NoWrap" Text="MEDLEMSID" VerticalAlignment="Top" Width="120" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16"/>
-        <TextBox x:Name="navnIndtastningsfelt" HorizontalAlignment="Left" Margin="189,157,0,0" TextWrapping="Wrap" Text="Navn" VerticalAlignment="Top" Width="465"/>
-        <TextBox x:Name="adresseIndtastningsfelt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Adresse" VerticalAlignment="Top" Width="465" Margin="189,198,0,0"/>
-        <TextBox x:Name="mailndtastningsfelt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Mailadresse" VerticalAlignment="Top" Width="465" Margin="188,277,0,0"/>
-        <TextBox x:Name="telefonIndtastningsfelt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Telefonnummer" VerticalAlignment="Top" Width="465" Margin="189,237,0,0"/>
-        <TextBox x:Name="tilmeldtlndtastningsfelt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tilmeld kursus" VerticalAlignment="Top" Width="52" Margin="189,332,0,0"/>
-        <TextBox x:Name="indtastÆndringerneForklaring" HorizontalAlignment="Center" Margin="0,133,0,0" TextWrapping="NoWrap" Text="Indtast ændringerne direkte i felterne:" VerticalAlignment="Top" Width="422" Height="24" BorderBrush="White" Foreground="#FF161616" FontSize="10" Opacity="0.5"/>
-        <TextBox x:Name="indtastÆndringerneForklaring_Copy" HorizontalAlignment="Left" Margin="500,295,0,0" TextWrapping="NoWrap" Text="Ændringerne gemmes automatisk" VerticalAlignment="Top" Width="153" Height="24" BorderBrush="White" Foreground="#FF161616" FontSize="10" Opacity="0.5"/>
-        <Button x:Name="gemOgLukButton" Content="Gem og Luk" Margin="576,332,147,68" Click="gemOgLukButton_Click"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image x:Name="fotoMedlem1" HorizontalAlignment="Left" Height="50" Margin="593,98,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png" Grid.RowSpan="2"/>
+        <TextBox x:Name="textMedlemmer" HorizontalAlignment="Left" Margin="155,66,0,0" TextWrapping="NoWrap" TextAlignment="Center" Text="MEDLEMSID" VerticalAlignment="Top" Height="26" Width="500" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16" Grid.RowSpan="2"/>
+        <TextBox x:Name="navnIndtastningsfelt" HorizontalAlignment="Left" Margin="171,182,0,0" TextWrapping="Wrap" Text="Navn" VerticalAlignment="Top" Width="465" Grid.RowSpan="2"/>
+        <TextBox x:Name="adresseIndtastningsfelt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Adresse" VerticalAlignment="Top" Width="465" Margin="171,223,0,0" Grid.RowSpan="2"/>
+        <TextBox x:Name="mailndtastningsfelt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Mailadresse" VerticalAlignment="Top" Width="465" Margin="170,302,0,0" Grid.RowSpan="2"/>
+        <TextBox x:Name="telefonIndtastningsfelt" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Telefonnummer" VerticalAlignment="Top" Width="465" Margin="171,262,0,0" Grid.RowSpan="2"/>
+        <TextBox x:Name="indtastÆndringerneForklaring" HorizontalAlignment="Left" Margin="172,158,0,0" TextWrapping="NoWrap" Text="Indtast ændringerne direkte i felterne:" VerticalAlignment="Top" Width="422" Height="24" BorderBrush="White" Foreground="#FF161616" FontSize="10" Opacity="0.5" Grid.RowSpan="2"/>
+        <TextBox x:Name="ÆndringerneForklaring" HorizontalAlignment="Left" Margin="482,320,0,0" TextWrapping="NoWrap" Text="Ændringerne gemmes automatisk" VerticalAlignment="Top" Width="153" Height="24" BorderBrush="White" Foreground="#FF161616" FontSize="10" Opacity="0.5" Grid.RowSpan="2"/>
+        <Button x:Name="gemOgLukButton" Content="Gem og Luk" Height="35" Width="70" HorizontalAlignment="Left" Margin="558,357,0,42" Click="gemOgLukButton_Click" Grid.RowSpan="2"/>
+        <Button x:Name="tilmeldKursusButton" Content="Tilmeld Kursus" Height="35" Width="80" HorizontalAlignment="Left" Margin="172,357,0,42" Click="tilmeldKursusButton_Click" Grid.RowSpan="2" d:LayoutOverrides="HorizontalAlignment" Background="#FFE8E8E8" ClickMode="Press"/>
+
 
     </Grid>
 </Window>

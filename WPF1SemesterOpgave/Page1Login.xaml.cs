@@ -34,18 +34,18 @@ namespace WPF1SemesterOpgave
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            string userBrugernavn = brugernavnUser.Text;
-            string userPassword = passwordUser.Text;
-            if (userBrugernavn == "admin" && userPassword == "hello") //Jeg vælger brugernavn og password
-            {
-                var mainWindow = (Main)Application.Current.MainWindow; //Find mainwindow af programmet
-                mainWindow.MainFrame.Navigate(new Page2Overblik()); //Fortæller mainwindow at Page2Overblik skal vises
-            }
-            else
-            {
-                MessageBox.Show("Forkert brugernavn og password. Prøv igen"); //Beder om at vise en fejlbesked ved forkerte oplysninger indtastet
+            //string userBrugernavn = brugernavnUser.Text;
+            //string userPassword = passwordUser.Text;
+            //if (userBrugernavn == "admin" && userPassword == "hello") //Jeg vælger brugernavn og password
+            //{
+              var mainWindow = (Main)Application.Current.MainWindow; //Find mainwindow af programmet
+              mainWindow.MainFrame.Navigate(new Page2Overblik()); //Fortæller mainwindow at Page2Overblik skal vises
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Forkert brugernavn og password. Prøv igen"); //Beder om at vise en fejlbesked ved forkerte oplysninger indtastet
 
-            }  
+            //}  
         }
 
     }

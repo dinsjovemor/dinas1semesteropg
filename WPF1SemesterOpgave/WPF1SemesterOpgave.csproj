@@ -71,6 +71,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ModalKursusDetaljer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModalOpretKursus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Page1Login.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -93,6 +101,12 @@
     <Compile Include="Medlemslisten.cs" />
     <Compile Include="Modal5MedlemsID.xaml.cs">
       <DependentUpon>Modal5MedlemsID.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModalKursusDetaljer.xaml.cs">
+      <DependentUpon>ModalKursusDetaljer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModalOpretKursus.xaml.cs">
+      <DependentUpon>ModalOpretKursus.xaml</DependentUpon>
     </Compile>
     <Compile Include="Page1Login.xaml.cs">
       <DependentUpon>Page1Login.xaml</DependentUpon>

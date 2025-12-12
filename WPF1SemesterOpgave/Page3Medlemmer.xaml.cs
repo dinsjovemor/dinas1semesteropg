@@ -8,7 +8,7 @@ namespace WPF1SemesterOpgave
     /// </summary>
     public partial class Page3Medlemmer : Page
     {
-        private Medlemslisten medlemslisten;
+        private Medlemslisten medlemslisten; // scope af variablen medlemslisten som er af typen Medlemslisten
 
 
         public Page3Medlemmer()

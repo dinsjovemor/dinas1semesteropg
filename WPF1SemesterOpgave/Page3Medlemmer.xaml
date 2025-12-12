@@ -9,37 +9,27 @@
       Title="Page3Medlemmer">
 
     <Grid>
-        <Image x:Name="fotoMedlem1" HorizontalAlignment="Left" Height="50" Margin="130,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
-        <Image x:Name="fotoMedlem5" HorizontalAlignment="Left" Height="50" Margin="630,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
-        <Image x:Name="fotoMedlem2" HorizontalAlignment="Left" Height="50" Margin="248,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
-        <Image x:Name="fotoMedlem4" HorizontalAlignment="Left" Height="50" Margin="504,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
+        <Image x:Name="fotoMedlem1" HorizontalAlignment="Left" Height="50" Margin="134,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
+        <Image x:Name="fotoMedlem5" HorizontalAlignment="Left" Height="50" Margin="635,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
+        <Image x:Name="fotoMedlem2" HorizontalAlignment="Left" Height="50" Margin="252,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
+        <Image x:Name="fotoMedlem4" HorizontalAlignment="Left" Height="50" Margin="508,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
         <Image x:Name="fotoMedlem3" HorizontalAlignment="Left" Height="50" Margin="379,155,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
-        <Image x:Name="fotoMedlem6" HorizontalAlignment="Left" Height="50" Margin="130,273,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
-        <Image x:Name="fotoMedlem7" HorizontalAlignment="Left" Height="50" Margin="248,273,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
+        <Image x:Name="fotoMedlem6" HorizontalAlignment="Left" Height="50" Margin="134,273,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
+        <Image x:Name="fotoMedlem7" HorizontalAlignment="Left" Height="50" Margin="252,273,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
         <Image x:Name="fotoMedlem8" HorizontalAlignment="Left" Height="50" Margin="379,273,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
-        <Image x:Name="fotoMedlem9" HorizontalAlignment="Left" Height="50" Margin="504,273,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
+        <Image x:Name="fotoMedlem9" HorizontalAlignment="Left" Height="50" Margin="508,273,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
         <Image x:Name="fotoMedlem10" HorizontalAlignment="Left" Height="50" Margin="630,273,0,0" VerticalAlignment="Top" Width="50" Source="/FOTOSKITSE.png"/>
-        <Label x:Name="medlemmerTitel" HorizontalAlignment="Center" Foreground="DarkRed" Background="LightGray" Margin="0,63,0,0" VerticalAlignment="Top" Width="422" RenderTransformOrigin="0.5,0.5" FontFamily="Bauhaus 93" FontSize="16" Height="25">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-        <TextBox x:Name="textMedlemmer" HorizontalAlignment="Left" Margin="348,63,0,0" TextWrapping="NoWrap" Text="MEDLEMMER" VerticalAlignment="Top" Width="120" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16"/>
-        <Button x:Name="medlem1Button" Content="Medlem1" HorizontalAlignment="Left" Margin="131,210,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem1Button_Click"/>
-        <Button x:Name="medlem2Button" Content="Medlem2" HorizontalAlignment="Left" Margin="248,209,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem2Button_Click"/>
-        <Button x:Name="medlem3Button" Content="Medlem3" HorizontalAlignment="Center" Margin="0,209,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem3Button_Click"/>
-        <Button x:Name="medlem4Button" Content="Medlem4" HorizontalAlignment="Left" Margin="504,210,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem4Button_Click"/>
-        <Button x:Name="medlem5Button" Content="Medlem5" HorizontalAlignment="Left" Margin="631,209,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem5Button_Click"/>
-        <Button x:Name="medlem6Button" Content="Medlem6" HorizontalAlignment="Left" Margin="130,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem6Button_Click"/>
-        <Button x:Name="medlem7Button" Content="Medlem7" HorizontalAlignment="Left" Margin="248,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem7Button_Click"/>
-        <Button x:Name="medlem8Button" Content="Medlem8" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem8Button_Click"/>
-        <Button x:Name="medlem9Button" Content="Medlem9" HorizontalAlignment="Left" Margin="504,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem9Button_Click"/>
-        <Button x:Name="medlem10Button" Content="Medlem10" HorizontalAlignment="Left" Margin="628,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem10Button_Click"/>
+        <TextBox x:Name="textMedlemmer" Margin="155,66,0,0" TextWrapping="NoWrap" Height="20" Width="500" HorizontalAlignment="Left" TextAlignment="Center" Text="MEDLEMMER" VerticalAlignment="Top" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16"/>
+        <Button x:Name="medlem1Button" Content="Medlem1" Height="15" Width="50" HorizontalAlignment="Left" Margin="130,210,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem1Button_Click"/>
+        <Button x:Name="medlem2Button" Content="Medlem2" Height="15" Width="50" HorizontalAlignment="Left" Margin="248,209,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem2Button_Click"/>
+        <Button x:Name="medlem3Button" Content="Medlem3" Height="15" Width="50" HorizontalAlignment="Left" Margin="375,209,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem3Button_Click"/>
+        <Button x:Name="medlem4Button" Content="Medlem4" Height="15" Width="50" HorizontalAlignment="Left" Margin="504,210,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem4Button_Click"/>
+        <Button x:Name="medlem5Button" Content="Medlem5" Height="15" Width="50" HorizontalAlignment="Left" Margin="631,209,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem5Button_Click"/>
+        <Button x:Name="medlem6Button" Content="Medlem6" Height="15" Width="50" HorizontalAlignment="Left" Margin="130,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem6Button_Click"/>
+        <Button x:Name="medlem7Button" Content="Medlem7" Height="15" Width="50" HorizontalAlignment="Left" Margin="248,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem7Button_Click"/>
+        <Button x:Name="medlem8Button" Content="Medlem8" Height="15" Width="50" HorizontalAlignment="Left" Margin="375,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem8Button_Click"/>
+        <Button x:Name="medlem9Button" Content="Medlem9" Height="15" Width="50" HorizontalAlignment="Left" Margin="504,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem9Button_Click"/>
+        <Button x:Name="medlem10Button" Content="Medlem10" Height="15" Width="50"             HorizontalAlignment="Left" Margin="628,328,0,0" VerticalAlignment="Top" FontSize="9" Click="medlem10Button_Click"/>
 
     </Grid>
 </Page>

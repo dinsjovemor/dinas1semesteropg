@@ -32,7 +32,6 @@ namespace WPF1SemesterOpgave
             telefonIndtastningsfelt.Text = medlem.Telefonnummer; ////Henter Telefonnummerfeltet fra listen medlem
             mailndtastningsfelt.Text = medlem.Mailadresse; ////Henter Mailadressefeltet fra listen medlem
 
-
         }
 
         private void gemOgLukButton_Click(object sender, RoutedEventArgs e) //"Gem og Luk" knappen
@@ -44,6 +43,11 @@ namespace WPF1SemesterOpgave
 
             this.Close(); //Lukker vinduet
 
+        }
+
+        private void tilmeldKursusButton_Click(object sender, RoutedEventArgs e)
+        {
+          
         }
     }
 }

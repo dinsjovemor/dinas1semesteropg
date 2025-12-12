@@ -9,24 +9,15 @@
       Title="Page4Kurser">
 
     <Grid>
-        <Label x:Name="kurserTitel" HorizontalAlignment="Center" Foreground="DarkRed" Background="LightGray" Margin="0,62,0,0" VerticalAlignment="Top" Width="422" RenderTransformOrigin="0.5,0.5" FontFamily="Bauhaus 93" FontSize="16" Height="25">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-        <TextBox x:Name="textKurser" HorizontalAlignment="Left" Margin="376,64,0,0" TextWrapping="NoWrap" Text="KURSER" VerticalAlignment="Top" Width="120" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16" Height="21"/>
-        <Button x:Name="kursus1box" Content="Basis&#xD;&#xA;Git-kursus" Margin="137,160,535,225" Click="Button_Click"/>
-        <Button x:Name="kursus3box" Content="Front-End&#xD;&#xA;HTML-kursus" Margin="336,158,336,227" Click="Button_Click"/>
-        <Button x:Name="kursus2Box" Content="Basis&#xA;Visual Studio-kursus" Margin="137,281,535,104" Click="Button_Click"/>
-        <Button x:Name="kursus5box" Content="Back-End&#xA;Node-kursus" Margin="534,160,138,225" Click="Button_Click"/>
-        <Button x:Name="kursus6box" Content="Back-End&#xA;Django-kursus" Margin="534,281,138,104" Click="Button_Click"/>
-        <Button x:Name="kursus4box" Content="Front-End&#xD;&#xA;CSS-kursus" Margin="336,281,336,104" Click="Button_Click"/>
-        <Button x:Name="tilføjKursusButton" Content="Tilføj kursus" Margin="569,382,138,43" Click="tilføjKursusButton_Click"/>
+        <TextBox x:Name="textKurser" HorizontalAlignment="Left" Margin="155,66,0,0" TextWrapping="NoWrap" TextAlignment="Center" Text="KURSER" VerticalAlignment="Top" Height="26" Width="500" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16"/>
+        <Button x:Name="kursus1Button" Content="Basis&#xD;&#xA;Git-kursus" Height="60" Width="80" Margin="137,160,583,230" Click="Button1_Click"/>
+        <Button x:Name="kursus3Button" Content="Front-End&#xD;&#xA;HTML-kursus" Height="60" Width="80" Margin="336,158,336,227" Click="Button3_Click"/>
+        <Button x:Name="kursus2Button" Content="Basis&#xA;Visual Studio-kursus" Height="60" Width="80" Margin="137,284,583,106" Click="Button2_Click" ClickMode="Press"/>
+        <Button x:Name="kursus5Button" Content="Back-End&#xA;Node-kursus" Height="60" Width="80" Margin="534,160,138,225" Click="Button5_Click"/>
+        <Button x:Name="kursus6Button" Content="Back-End&#xA;Django-kursus" Height="60" Width="80" Margin="534,281,138,104" Click="Button6_Click"/>
+        <Button x:Name="kursus4Button" Content="Front-End&#xD;&#xA;CSS-kursus" Height="60" Width="80" Margin="336,281,336,104" Click="Button4_Click"/>
+        <Button x:Name="tilføjKursusButton" Content="Tilføj kursus" Height="60" Width="80" Margin="569,382,138,43" Click="tilføjKursusButton_Click"/>
+        
 
     </Grid>
 </Page>
