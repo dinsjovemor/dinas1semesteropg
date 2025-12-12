@@ -10,64 +10,61 @@
             <!-- Titel -->
             <RowDefinition Height="Auto"/>
             <!-- Beskrivelse label -->
-            <RowDefinition Height="414.04"/>
+            <RowDefinition Height="382"/>
             <!-- Beskrivelse tekst -->
-            <RowDefinition Height="Auto"/>
             <!-- Deltagerantal -->
-            <RowDefinition Height="Auto"/>
             <!-- Luk knap -->
         </Grid.RowDefinitions>
 
         <!-- Kursus titel -->
         <TextBlock Text="Titel:"
                    Grid.Row="2"
-                   VerticalAlignment="Top" Margin="131,101,349,0"/>
+                   VerticalAlignment="Top" Margin="130,23,350,0" Height="16" av:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
         <TextBox x:Name="TitelBox"
                  Grid.Row="2"
-                 Margin="130,116,350,273"
-                 IsReadOnly="True"
-                 Width="300" Height="25"/>
-
+                 Margin="131,44,349,318"
+                 IsReadOnly="True" Height="20"/>
+       
         <!-- Beskrivelse label -->
         <TextBlock Text="Beskrivelse:"
                    Grid.Row="2"
-                   Margin="130,145,468,0" Height="16" VerticalAlignment="Top" Width="182"/>
+                   Margin="129,88,137,0" Height="46" VerticalAlignment="Top" Width="182" av:LayoutOverrides="VerticalAlignment, LeftMargin, RightMargin, TopMargin, BottomMargin"/>
 
         <!-- Beskrivelse tekst (flere linjer) -->
         <TextBox x:Name="BeskrivelseBox"
                  Grid.Row="2"
-                 Margin="130,166,136,166"
+                 Margin="131,153,519,208"
                  IsReadOnly="True"
                  TextWrapping="Wrap"
                  AcceptsReturn="True"
-                 VerticalScrollBarVisibility="Auto"/>
+                 VerticalScrollBarVisibility="Auto" Height="21" av:LayoutOverrides="LeftMargin, RightMargin"/>
 
         <!-- Deltagerantal -->
         <TextBlock Text="Deltager antal:"
                    Grid.Row="2"
-                   Margin="131,264,519,0" Height="25" VerticalAlignment="Top" Width="130"/>
+                   Margin="266,153,350,0" Height="18" VerticalAlignment="Top" Width="130" av:LayoutOverrides="VerticalAlignment, LeftMargin, RightMargin, TopMargin, BottomMargin"/>
 
         <TextBox x:Name="DeltagerAntalBox"
                  Grid.Row="2"
-                 IsReadOnly="True" Margin="266,264,350,132" av:LayoutOverrides="HorizontalAlignment"/>
+                 IsReadOnly="True" Margin="130,188,518,194" av:LayoutOverrides="LeftMargin, RightMargin" Height="0"/>
 
         <!-- Max Antal Deltager -->
         <TextBlock Text="Max antal deltager:"
                    Grid.Row="2"
-                   Margin="130,299,518,0" Height="25" VerticalAlignment="Top" Width="132"/>
+                   Margin="266,188,350,0" Height="25" VerticalAlignment="Top" Width="132" av:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
 
         <TextBox x:Name="MaxAntalDeltagerBox"
                  Grid.Row="2"
-                 Margin="266,299,350,96" 
-                 IsReadOnly="True" av:LayoutOverrides="HorizontalAlignment"/>
+                 Margin="564,365,0,0" 
+                 IsReadOnly="True" av:LayoutOverrides="Height, LeftMargin, RightMargin" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
         <!-- Luk knap -->
         <Button x:Name="gemOgLukButton" Content="Gem og Luk"
-                Grid.Row="2"
-                Width="80"
-                Margin="564,349,0,10"
+                Grid.Row="1"
+                Width="130"
+                Margin="130,64,0,-4"
                 HorizontalAlignment="Left"
-                Click="LukButton_Click" Height="20"/>
-        <TextBox x:Name="textMedlemmer" HorizontalAlignment="Left" Margin="131,61,0,0" TextWrapping="NoWrap" TextAlignment="Center" Text="KURSUSDETALJER" Width="500" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16" Grid.Row="2" VerticalAlignment="Top" av:LayoutOverrides="VerticalAlignment"/>
+                Click="LukButton_Click" Height="21" av:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <TextBox x:Name="textMedlemmer" HorizontalAlignment="Left" Margin="130,64,0,0" TextWrapping="NoWrap" TextAlignment="Center" Text="KURSUSDETALJER" Width="130" Background="LightGray" BorderThickness="0,0,0,0" FontSize="16" Grid.Row="1" VerticalAlignment="Top" av:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Height="21"/>
     </Grid>
 </Window>
